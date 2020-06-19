@@ -15,7 +15,7 @@ class PagesController extends Controller
     public function services(){
         $data=array(
             'title'=>'Services',
-            'var'=>['Book Review','Book rating']
+            'var'=>['Book Review']
         );
         return view('pages/services') -> with($data);
     }
